@@ -1,6 +1,6 @@
 from scrapy import cmdline
 
-cmdline.execute('scrapy crawl search-user -s JOBDIR=crawlsUser7/user7'.split())
+cmdline.execute('scrapy crawl search -s JOBDIR=crawls/spider'.split())
 
 # import time, subprocess, signal
 #
